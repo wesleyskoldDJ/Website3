@@ -16,7 +16,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: white;
+    border-color: #eb3812;
     border-width: 3px;
 }
 
@@ -25,7 +25,8 @@ hr.light {
 }
 
 a {
-    color: #f05f40;
+    color: #eb3812;
+    text-decoration: none;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -33,7 +34,8 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #a30000;
+    text-decoration: none;
 }
 
 h1,
@@ -47,6 +49,10 @@ h6 {
 
 h3 {
     color: gray;
+}
+
+h4 {
+    font-size: 60px;
 }
 
 p {
@@ -66,21 +72,19 @@ p {
 
 .bg-gray {
     color: #fff;
-    background-color: #DDDDDD;
+    /*background-color: #DDDDDD;*/
+    background: url(../img/stockparty.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    -webkit-box-pack: center;
 }
 
 .text-faded {
     color: rgba(255,255,255,.7);
 }
 
-.reviewbox{
-    padding: 20px 10px;
-    background: rgba(230,230,230,.5);
-    /*border-top: 1px solid #858585;
-    border-bottom: 1px solid #858585;*/
-    /*border-radius: 5px;*/
-    margin: 20px 0px;
-}
 
 
 section {
@@ -170,25 +174,27 @@ aside {
     }
 
     .navbar-default.affix {
-        border-color: rgba(34,34,34,.05);
-        background-color: #fff;
+        border-color: rgba(34,34,34,0);
+        /*controls navbar */
+        background-color: rgba(0,0,0,0);
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
         /*"Wesley Skold DJ" size change*/
-        font-size: 14px;
+        font-size: 20px;
         color: #f05f40;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
         /*"Wesley Skold DJ" 2nd color:hover*/
-        color: #0066FF;
+        color: #eb3812;
     }
 
     .navbar-default.affix .nav > li>a,
     .navbar-default.affix .nav>li>a:focus {
-        color: #222;
+        /*navbar items color*/
+        color: #C6C6C6;
     }
 
     .navbar-default.affix .nav > li>a:hover,
@@ -430,7 +436,7 @@ fieldset[disabled] .btn-default.active {
 .open > .dropdown-toggle.btn-primary {
     border-color: #ed431f;
     color: #fff;
-    background-color: ;
+    background-color: #eb3812;
 }
 
 .btn-primary:active,
@@ -504,10 +510,48 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
-.vertical-center {
+.image-padding {
     padding-top: 40px;
 }
 
+
+.reviewbox{
+    padding: 20px 10px;
+    background: rgba(0,0,0,.8);
+    /*border-top: 1px solid #858585;
+    border-bottom: 1px solid #858585;*/
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+.reviewtitle{
+    padding: 20px 0px 10px 0px;
+    background: rgba(0,0,0,.8);
+    /*border-top: 1px solid #858585;
+    border-bottom: 1px solid #858585;*/
+    border-radius: 5px;
+    /*margin: 20px 0px;*/
+}
 #footer{
+    border-top: 1px solid #eb3812;
+    height: 200px;
+
+}
+
+#footer a{
+    font-family: 'Open Sans Condensed','Helvetica Neue',Arial,sans-serif;
+    font-size: 20px;
+    color: #C6C6C6;
+}
+
+#footer a:hover{
+    color: #eb3812;
+}
+
+.dark-button {
+    color: #F8F8F8;
+    background: #343434;
+    border-width: 1px;
+    font-family: 'Open Sans Condensed','Helvetica Neue',Arial,sans-serif;
 
 }
