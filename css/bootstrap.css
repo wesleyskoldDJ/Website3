@@ -229,7 +229,9 @@ th {
   img {
     max-width: 100% !important;
   }
-  p,
+  p:first-line {
+    text-indent:30px;
+}
   h2,
   h3 {
     orphans: 3;
