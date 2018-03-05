@@ -49,6 +49,7 @@ h6 {
 
 h3 {
     color: gray;
+    font-size: 40px;
 }
 
 h4 {
@@ -69,12 +70,18 @@ p {
 .bg-dark {
     color: #fff;
     background-color: #222;
+    background: url(../img/logic.jpg) no-repeat center center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+background-size: contain;
+    -webkit-box-pack: center;
 }
 
 .bg-gray {
     color: #fff;
     /*background-color: #DDDDDD;*/
-    background: url(../img/partyscene.jpeg) no-repeat center center fixed;
+    background: url(../img/board.png) no-repeat center center fixed;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -85,7 +92,7 @@ background-size: contain;
 .bg-white {
     color: #fff;
     /*background-color: #DDDDDD;*/
-    background: url(../img/Wes Bio.jpg) no-repeat center center fixed;
+    background: url(../img/wesbio.2.jpg) no-repeat center center fixed;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
