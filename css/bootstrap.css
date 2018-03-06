@@ -229,9 +229,7 @@ th {
   img {
     max-width: 100% !important;
   }
-  p:first-line {
-    text-indent:30px;
-}
+  p,
   h2,
   h3 {
     orphans: 3;
@@ -301,6 +299,7 @@ th {
   content: "\2601";
 }
 .glyphicon-envelope:before {
+  position: relative;
   content: "\2709";
 }
 .glyphicon-pencil:before {
