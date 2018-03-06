@@ -299,7 +299,6 @@ th {
   content: "\2601";
 }
 .glyphicon-envelope:before {
-  position: relative;
   content: "\2709";
 }
 .glyphicon-pencil:before {
