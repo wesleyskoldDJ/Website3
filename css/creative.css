@@ -63,6 +63,14 @@ p {
     text-indent: 30px;
 }
 
+p.noindent {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-indent: 0px;
+}
+
+
 .bg-primary {
     background-color: #000;
 }
