@@ -78,7 +78,6 @@ p.center {
     text-align: center;
 }
 
-
 .bg-primary {
     background-color: #000;
 }
@@ -124,7 +123,9 @@ background-size: contain;
     color: rgba(255,255,255,.7);
 }
 
-
+body {
+    padding: 20px;
+}
 
 section {
     padding: 100px 0;
