@@ -83,6 +83,10 @@ p.center {
     background-color: #000;
 }
 
+.bg-second {
+    background-color: #2C2C2C;
+}
+
 .bg-dark {
     color: #fff;
     background-color: #222;
