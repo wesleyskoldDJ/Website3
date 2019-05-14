@@ -1,0 +1,53 @@
+body{
+	background: #ddd;
+}
+
+.hover-animation	{
+	width: 100%;
+	height: 250px;
+	display: inline-block;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	border: 1px solid #000;
+	position: relative;
+	overflow: hidden;
+}
+
+.one  {background-image: url(../img/NoExcuses.jpg);}
+.two  {background-image: url(../img/PS1_piano.jpg);}
+
+
+.hover-animation:before,
+.hover-animation:after	{
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	content: "";
+	position: absolute;
+	transition: .3s;
+}
+
+.hover-animation:after	{
+	padding: 65px;
+	display: -webkit-flex;
+	display: -mox-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	font-size: 22px;
+	transform: translateY(100%);
+	content: attr(data-text);
+}
+
+.hover-animation:hover:before {
+  filter:blur(2px) brightness(60%);
+}
+
+.hover-animation:hover:after	{
+	transform: translateY(0);
+}
