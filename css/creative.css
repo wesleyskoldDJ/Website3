@@ -167,6 +167,10 @@ background-size: contain;
     top:75%
   }
 
+  .textWithBlurredBg iframe{
+    top:75%
+  }
+
   .textWithBlurredBg:hover :not(img){
     opacity:1;
   }
