@@ -123,13 +123,17 @@ background-size: contain;
     color: rgba(255,255,255,.7);
 }
 
+.textWithBlurredBg-container {
+  text-align: center;
+}
+
 .textWithBlurredBg{
     width:300px;
     height:auto;
     display:inline-block;
     position:relative;
     transition:.3s;
-    margin:4px;
+    margin:10px;
   }
 
   .textWithBlurredBg img{
@@ -168,7 +172,8 @@ background-size: contain;
   }
 
   .textWithBlurredBg iframe{
-    top:75%
+    top:75%;
+    left: 0;
   }
 
   .textWithBlurredBg:hover :not(img){
