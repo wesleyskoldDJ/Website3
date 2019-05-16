@@ -95,7 +95,8 @@ p.center {
   -o-background-size: contain;
 background-size: contain;
     -webkit-box-pack: center;
-    padding: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .bg-gray {
@@ -107,7 +108,8 @@ background-size: contain;
   -o-background-size: contain;
 background-size: contain;
     -webkit-box-pack: center;
-    padding: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .bg-white {
