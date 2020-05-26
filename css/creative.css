@@ -95,10 +95,10 @@ p.center {
 .bg-dark {
     color: #fff;
     background-color: #222;
-    background: url(../img/PS1-laugh.2.jpeg) no-repeat center fixed;
+    background: url(../img/PS1-laugh.jpg) no-repeat center fixed;
     -webkit-box-pack: center;
     padding-top: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 120px;
 }
 
 .bg-gray {
