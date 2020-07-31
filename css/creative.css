@@ -77,25 +77,27 @@ p.center {
     text-indent: 0px;
     text-align: center;
 }
-
+.logo-image{
+    width: 100px;
+    height: 21.7px;
+}
 .bg-primary {
-    background-color: #000;
+    background-color: #F0F3F4;
+    text-align: center;
 }
 
 .bg-second {
-    background-color: #2C2C2C;
+
+  background-color: #4D4D4D;
+  background-blend-mode: lighten;
 }
 
 .bg-dark {
     color: #fff;
     background-color: #222;
-    background: url(../img/logic.jpg) no-repeat center center fixed;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-background-size: contain;
+    background: url(../img/PS1-laugh.jpg) no-repeat center fixed;
     -webkit-box-pack: center;
-    padding-top: 120px;
+    padding-top: 200px;
     padding-bottom: 120px;
 }
 
@@ -113,9 +115,11 @@ background-size: contain;
 }
 
 .bg-white {
-    color: #fff;
+    color: #F0F3F4;
     /*background-color: #DDDDDD;*/
-    background: url(../img/PS1_head2.1.jpg) no-repeat center center fixed;
+    background: url(../img/PS1_head2.jpg) no-repeat left fixed;
+    background-position: 50px 150px;
+    box-shadow: 0 0 8px 8px #F0F3F4 inset;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -124,9 +128,10 @@ background-size: contain;
 }
 
 .text-faded {
-    color: rgba(255,255,255,.7);
+    color: #000;
 }
 
+}
 .textWithBlurredBg-container {
   text-align: center;
 }
@@ -138,6 +143,7 @@ background-size: contain;
     position:relative;
     transition:.3s;
     margin:10px;
+
   }
 
   .textWithBlurredBg img{
@@ -184,8 +190,27 @@ background-size: contain;
     opacity:1;
   }
 
+  .video {
+    position:relative;
+    	padding-bottom:56.25%;
+    	padding-top:30px;
+    	height:0;
+    	overflow:hidden;
+
+  }
+
+  .video iframe, .video object, .video embed {
+    position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+    box-shadow: 13px 13px 13px 0px #888888;
+  }
+
+
 body {
-    padding: 20px;
+    padding: 0px;
 }
 
 section {
@@ -380,6 +405,7 @@ header .header-content .header-content-inner p {
 
 .section-heading {
     margin-top: 0;
+    color: #000
 }
 
 .service-box {
@@ -653,6 +679,7 @@ body {
 }
 #footer{
     border-top: 1px solid #eb3812;
+    background-color: #000
     height: 200px;
 
 }
