@@ -354,8 +354,9 @@ header .header-content {
     text-align: center;
 }
 
-header .header-content2 {
+header .header-content-two {
     position: relative;
+    width: 100%;
     padding: 160px 200px 40px 15px;
     text-align: right;
 }
