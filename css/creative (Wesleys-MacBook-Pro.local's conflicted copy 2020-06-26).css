@@ -687,3 +687,9 @@ body {
     font-family: 'Open Sans Condensed','Helvetica Neue',Arial,sans-serif;
 
 }
+
+.container-fluid {
+    display: flex; /* Makes the child elements (navbar-header and collapse navbar-collapse) flex items */
+    justify-content: space-between; /* Distributes space between items, pushing the navbar-header to the left and navigation links to the right */
+    align-items: center; /* Aligns items along the cross axis (vertically) to the center */
+}
